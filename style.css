@@ -1,0 +1,61 @@
+body{
+  color: black;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+h1{
+  font-family:  'Pacifico', cursive;
+  color: #00A7E1;
+  font-weight: lighter;
+  font-size: 65px;
+}
+h2 {
+  margin-top: 10px;
+  font-family: 'Pacifico', cursive;
+  color: black;
+  font-weight: lighter;
+  font-size: 40px;
+}
+a {
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px;
+  margin-top: 40px;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+#banner{
+  background-image: url("https://images.unsplash.com/photo-1526952702828-d7469c8147a8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=28226ac3054e88532d4f8f2b4b8aed2c&auto=format&fit=crop&w=1051&q=80");
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+#banner h1 {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 70px;
+}
+#banner p {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  font-size: 10px; 
+  text-align: center;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
